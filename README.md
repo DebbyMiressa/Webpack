@@ -75,15 +75,16 @@ If you need to run my project locally follow the steps below :
 ```sh
 npm init -y
 ```
-2. Install Webpack, Required plugin(s) and Style/CSS Loader
+2. Install Webpack, Required plugin(s), Style/CSS Loader and Webpack-dev-server
 ```sh
 npm install webpack webpack-cli --save-dev
 npm install --save-dev html-webpack-plugin
 npm install --save-dev style-loader css-loader
-```
-3. Install Webpack-dev-server and start running build
-```sh
 npm install --save-dev webpack-dev-server
+```
+3. Start running build
+```sh
+npm build run
 npm start
 ```
 
